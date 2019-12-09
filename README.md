@@ -501,6 +501,7 @@ plane.fly # vroom
 
 -------
 ### Labs: 
+-------
 
 ### 1. Ruby Class Methods
 
