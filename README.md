@@ -464,7 +464,7 @@ class Car
   
   def drive
     # fuel is reference the getter and setter methods for fuel
-    fuel = fuel - 1
+    @fuel = fuel - 1
   end
 end
 ```
