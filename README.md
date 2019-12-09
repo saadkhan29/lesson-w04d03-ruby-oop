@@ -499,12 +499,16 @@ plane = Airplane.new
 plane.fly # vroom
 ```
 
-### Lab: Ruby Class Methods
+-------
+### Labs: 
+
+### 1. Ruby Class Methods
 
 Update your `Person` class to have a class method named `planet` that `puts "Earth"`.
 
 
-### Make an ATM - Lab (20 minutes)
+-------
+### 2. Make an ATM
 
 For this exercise you will be creating an ATM class.
 
@@ -528,9 +532,9 @@ Give the `Atm` class a `backup_account` property that can, optionally, contain a
 - Whenever an ATM's balance goes below zero, it will remove money from the instance stored in `backup_account` so that its balance goes back to zero.
 - This should trigger a withdrawal in the back up account equal to the amount of money that was withdrawn from the original account.
 
-> 15 minutes exercise. 5 minutes review.
 
-### Create a `RecordAlbums` Class - Lab (10 minutes)
+-------
+### 3. Create a `RecordAlbums` Class - Lab (10 minutes)
 
 It should have the following properties...
 
@@ -543,6 +547,7 @@ It should have the following methods...
 
 - next_song(method), which prints out its result
 - previous_song(method), which prints out its result
+
 
 -------
 
