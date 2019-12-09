@@ -239,8 +239,8 @@ class Car
   end
 end
 
-celica = new Car.new("Toyota Celica", "limegreen")
-civic = new Car.new("Honda Civic", "lemonchiffon")
+celica = Car.new("Toyota Celica", "limegreen")
+civic = Car.new("Honda Civic", "lemonchiffon")
 
 celica.fuel # ?
 
